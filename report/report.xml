@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="Rahul" name="pytest" skipped="0" tests="4" time="0.181" timestamp="2020-05-08T13:15:15.001837"><testcase classname="login_test.test_Login_Testcase" file="login_test\test_Login_Testcase.py" line="10" name="test_login_by_gmail" time="0.003"></testcase><testcase classname="login_test.test_Login_Testcase" file="login_test\test_Login_Testcase.py" line="14" name="test_login_by_official_mail" time="0.053"><failure message="AssertionError: assert &apos;admin&apos; == &apos;customer&apos;
+  - customer
+  + admin">setUp = None
+
+    def test_login_by_official_mail(setUp):
+        print(&apos;Login using official mail id&apos;)
+&gt;       assert &apos;admin&apos; == &apos;customer&apos;
+E       AssertionError: assert &apos;admin&apos; == &apos;customer&apos;
+E         - customer
+E         + admin
+
+login_test\test_Login_Testcase.py:17: AssertionError</failure></testcase><testcase classname="signup_test.test_Signup_Testcase" file="signup_test\test_Signup_Testcase.py" line="10" name="test_signup_by_gmail" time="0.002"></testcase><testcase classname="signup_test.test_Signup_Testcase" file="signup_test\test_Signup_Testcase.py" line="14" name="test_signup_by_official_mail" time="0.003"></testcase></testsuite></testsuites>
